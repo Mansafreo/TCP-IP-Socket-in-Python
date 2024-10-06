@@ -1,3 +1,17 @@
+#P15/1898/2022
+#Ian Samoei Kipchirchir
+#Date: 10/6/2024
+
+#The server script is used to create a server that listens for incoming connections from clients and 
+# process the messages sent by the clients. 
+# The server is able to handle multiple clients concurrently by creating a new thread for each client connection. 
+# The server uses a fixed header length to determine the length of the incoming message and processes the message by reversing and 
+# capitalizing it before sending it back to the client. 
+# The server also checks for a disconnect key to close the connection with the client.
+#  The server script is designed to run on the host machine's local IP address,
+#  but it can automatically detect and use the local IP address if the specified IP address is unreachable. 
+# The server script is implemented using the socket module in Python and can be run as a standalone script to create a server
+#  that listens for incoming connections from clients.
 import socket
 import threading
 import os
