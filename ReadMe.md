@@ -12,7 +12,7 @@
 ## Introduction
 This code focuses on inter-process communication using the TCP/IP protocol. It utilises the `socket` module in python to send 
 and receive data between two processes i.e. a server and a client. The server listens for incoming connections and the client sends a message to the server
-The server then processes that message and returns a response to the client. The client then prints the response on the console.
+The server then processes that message by reversing and capitalising it then returns a response to the client. The client then prints the response on the console.
 
 ## Installation
 To set up the project, follow these steps:
@@ -75,3 +75,6 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Link to my Repo
+[My Repo](https://
